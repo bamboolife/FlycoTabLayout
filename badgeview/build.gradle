@@ -1,6 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-group= 'com.sundy.bamboolife'
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -32,15 +31,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    api project(path: ':badgeview')
-}
-buildscript {
-    repositories {
-        google()
-        jcenter()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.2'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
-    }
 }

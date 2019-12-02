@@ -1,2 +1,2 @@
-include ':app', ':tablayout'
+include ':app', ':tablayout', ':badgeview'
 rootProject.name='FlycoTabLayout'

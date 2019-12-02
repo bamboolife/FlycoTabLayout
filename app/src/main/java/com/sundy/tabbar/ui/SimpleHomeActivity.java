@@ -15,9 +15,9 @@ import com.sundy.tabbar.adapter.SimpleHomeAdapter;
 
 public class SimpleHomeActivity extends AppCompatActivity {
     private Context mContext = this;
-    private final String[] mItems = {"SlidingTabLayout", "CommonTabLayout", "SegmentTabLayout"};
+    private final String[] mItems = {"SlidingTabLayout", "CommonTabLayout", "SegmentTabLayout","VerticalTabLayout","TabFragment"};
     private final Class<?>[] mClasses = {SlidingTabActivity.class, CommonTabActivity.class,
-            SegmentTabActivity.class};
+            SegmentTabActivity.class,VerticalTabLayoutActivity.class,TabFragmentActivity.class};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
